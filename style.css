@@ -85,3 +85,31 @@ nav ul li a{
 .player_name{
     font-size: 18px;
 }
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 250px;
+    margin-bottom: 40px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+     margin-bottom: 25px;
+}
+.blog img{
+    width: 175px;
+    height: 115px;
+    margin-right: 15px;
+}
+.blog_details h2{
+    font-size: 20px;
+}
+.blog_details p{
+    font-size: 16px;
+    color: #9F9F9F;
+}
+.blog_details p a{
+    color: #562EFF;
+    text-decoration: none;
+}
