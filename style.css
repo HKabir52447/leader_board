@@ -1,0 +1,52 @@
+/* font-awesome */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #F3F1FF;
+}
+/* header style */
+header{
+    display: grid;
+    background: #562EFF;
+    grid-template-columns: 1fr 1fr;
+}
+.logo{
+    display: flex;
+}
+.logo h1{
+    margin: 25px 0;
+    color: #fff;
+}
+.logo img{
+    width: 40px;
+    height: 50px;
+    margin: 25px 15px 15px 100px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav ul li a{
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 35px;
+
+}
+
